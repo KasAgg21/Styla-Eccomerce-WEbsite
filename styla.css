@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Lato&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Alkatra';
+}
+
+h1{
+    font-size: 50px;
+    line-height: 64px;
+    color:cornflowerblue;
+}
+h2
+{
+    font-size: 46px;
+    line-height: 54px;
+    color: black;
+}
+h3
+{
+    font-size: 46px;
+    line-height: 54px;
+    color: black;
+}
+h4
+{
+    font-size: 46px;
+    line-height: 54px;
+    color: black;
+}
+h5
+{
+    font-size: 46px;
+    line-height: 54px;
+    color: black;
+}
+h6
+{
+    font-size: 46px;
+    line-height: 54px;
+    color: black;
+}
+p
+{
+    font-size: 16px;
+    color: transparent;
+    margin: 15px 0 20px 0;
+}
+
+selection-p1
+{
+    padding: 40px 80px;
+}
+selection-m1
+{
+    padding: 40px;
+}
+body
+{
+    width: 100%;
+}
