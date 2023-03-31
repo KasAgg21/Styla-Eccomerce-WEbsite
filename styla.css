@@ -9,7 +9,7 @@
 h1{
     font-size: 50px;
     line-height: 64px;
-    color:cornflowerblue;
+    color:#4fb5a8;
 }
 h2
 {
@@ -25,9 +25,9 @@ h3
 }
 h4
 {
-    font-size: 46px;
-    line-height: 54px;
-    color: black;
+    font-size: 20px;
+    line-height: 20px;
+    color: white;
 }
 h5
 {
@@ -44,13 +44,18 @@ h6
 p
 {
     font-size: 16px;
-    color: transparent;
-    margin: 15px 0 20px 0;
+    color: rgb(196, 196, 196);
+    margin: 10px 0 10px 0;
+}
+
+p.small
+{
+    line-height: 0.8;
 }
 
 selection-p1
 {
-    padding: 40px 80px;
+    padding: 40px 40px;
 }
 selection-m1
 {
@@ -59,4 +64,94 @@ selection-m1
 body
 {
     width: 100%;
+}
+
+/*header*/
+
+#Header
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px;
+    background-color: whitesmoke;
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    bottom: 0;
+}
+
+#NavBar
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#NavBar li
+{
+    list-style: none;
+    padding-inline: 0px 20px;
+    position: relative;
+}
+
+#NavBar li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 100;
+    color: black;
+    transition: 0.2s ease;
+}
+
+#NavBar li a:hover,
+#NavBar li a:active
+
+{
+    color:#4fb5a8;
+
+}
+#NavBar li a.active::after,
+#NavBar li a:hover::after
+{
+    color: #4fb5a8;
+    content: "";
+    width: 40%;
+    height: 2px;
+    background: #4fb5a8;
+    position: absolute;
+    justify-content: center;
+    bottom: 4px;
+    left: 10px;
+}
+
+#offer{
+    background-image: url("Assets/offer\ \(copy\ 1\).jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 90vh;
+    height: 90vh;
+    padding-left: 80px;
+    padding-right: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#offer h4
+{
+    padding-bottom: 10px;
+}
+#offer p
+{
+    padding-bottom: 17px;
+}
+#offer button
+{
+    background-color: #4fb5a8;
+    color: white;
+    border: 0cm;
+    padding: 1px 10px 1px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+
 }
