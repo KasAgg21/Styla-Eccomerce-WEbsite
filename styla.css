@@ -155,3 +155,16 @@ body
     cursor: pointer;
 
 }
+
+#collection
+{
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#collection .col{
+    width: 23%;
+    min-width: 250px;
+    padding: 50px 50px 50px 50px;
+}
