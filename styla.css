@@ -156,15 +156,48 @@ body
 
 }
 
-#collection
+#collection h2
 {
     padding-top: 50px;
     text-align: center;
     padding-bottom: 50px;
 }
 
-#collection .col{
+#collection .col
+{
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
     width: 23%;
-    min-width: 250px;
-    padding: 50px 50px 50px 50px;
+    min-width: 50px;
+    padding: 10px 10px 10px 10px;
+    cursor: pointer;
+    
+}
+
+#collection .col:hover
+{
+    box-shadow: 10px 10px 10px rgba(70, 62, 221, 0.1);
+}
+
+#collection .col img
+{
+    align-items: center;
+    width: 200px;
+    height: auto;
+}
+
+#collection .col-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#collection h6
+{
+    color: #4fb5a8;
+    padding-top: 10px;
 }
