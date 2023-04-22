@@ -167,37 +167,39 @@ body
 {
     text-align: center;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     width: 23%;
     min-width: 50px;
     padding: 10px 10px 10px 10px;
     cursor: pointer;
+    height: 400px;
     
 }
-
 #collection .col:hover
 {
-    box-shadow: 10px 10px 10px rgba(70, 62, 221, 0.1);
+    box-shadow: 10px 10px 10px 10px rgba(70, 62, 221, 0.1);
 }
+
 
 #collection .col img
 {
     align-items: center;
     width: 200px;
     height: auto;
+    margin-bottom: 10px;
 }
+
 
 #collection .col-container
 {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
-#collection h6
+#collection .col h6:hover
 {
-    color: #4fb5a8;
-    padding-top: 10px;
+    color:#4fb5a8;
 }
