@@ -1,2 +1,3 @@
 # Styla-Eccomerce-WEbsite
-Just a project to test out my HTMLS, CSS, Javascript Skills
+To create an ecommerce website for a clothing brand that allows users to browse different types of clothing, 
+add them to cart and order them.
